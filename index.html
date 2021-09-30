@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Game Torre de Hanói</title>
+</head>
+<body>
+    
+    <header>
+        <h1>jogo Torre de Hanói</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <div id="dificuldade" class="dificuldade">
+                <h2 id="dificuldade__texto">Selecione o nivel do jogo:</h2>
+                <button id="facil" class="dificuldade__btn">Fácil</button>
+                <button id="medio" class="dificuldade__btn">Médio</button>
+                <button id="dificil" class="dificuldade__btn">Difícil</button>
+            </div><!--dificuldade-->
+
+            <section class="main-game">
+                <div id="pilar-01" class="main-game__box-torre">
+                    <!-- <p class="main-game__box-torre__texto">Start</p> -->
+                </div><!--main-game__torre-->
+
+                <div id="pilar-02" class="main-game__box-torre">
+                    <!-- <p class="main-game__box-torre__texto">Offset</p> -->
+                </div><!--main-game__torre-->
+
+                <div id="pilar-03" class="main-game__box-torre">
+                    <!-- <p class="main-game__box-torre__texto">End</p> -->
+                </div><!--main-game__torre-->
+            </section><!--main-game-->
+        </div><!--container-->
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-box">
+                <div class="status-jogo">
+                    <span>Status do jogo:</span>
+                    <h3>Aguardando jogador</h3>
+                </div><!--status-jogo-->
+    
+                <div id="resultado-jogo" class="resultado-jogo">
+                    <h3>Você ganhou</h3>
+                    <p id="record">Seu recorde: </p>
+                    <p class="resultado-jogo__qnt-movimento">Quantidade de movimentos: </p>
+                    <button id="reset-game" class="reset-game">Resetar jogo</button>
+                </div><!--resultado-jogo-->
+    
+                
+            </div><!--footer-box-->
+        </div><!--container-->
+    </footer>
+
+    
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
